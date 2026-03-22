@@ -1,0 +1,2 @@
+UserName=Nico
+Modlle=llama3.2:latest
