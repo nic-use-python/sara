@@ -57,8 +57,8 @@ class brain:
 class tools:
     def __init__(self):
         self.toollist = []
-        self.useabletools = [f for f in os.listdir("/home/nico/Dokumente/sara/tools") 
-            if f.endswith('.py') and os.path.isfile(os.path.join("/home/nico/Dokumente/sara/tools", f))]
+        self.useabletools = [f for f in os.listdir("deinen pfad einfgen zu tools") 
+            if f.endswith('.py') and os.path.isfile(os.path.join("deinen pfad einfgen zu tools", f))]
         for i in range(len(self.useabletools)):
             self.toollist.append("".join(self.useabletools[i]).replace(".py",""))
 
@@ -75,7 +75,7 @@ class tools:
         else:
             try:
                 
-                sb.run([" /home/nico/Dokumente/.venv/bin/python", str(self.useabletools[output])], cwd="/home/nico/Dokumente/sara/tools")
+                sb.run([" deinen pfad einfgen zu tools", str(self.useabletools[output])], cwd="deinen pfad einfgen zu tools")
                 self.memory.append(str(self.toollist[output]))
             except:
                 print("error")
@@ -83,8 +83,8 @@ class tools:
 
 class Autostat:
     def __init__(self,ai,tools,inputs):
-        self.autostarts =  [f for f in os.listdir("/home/nico/Dokumente/sara/autostart") 
-            if f.endswith('.py') and os.path.isfile(os.path.join("/home/nico/Dokumente/sara/autostart", f))]
+        self.autostarts =  [f for f in os.listdir("") 
+            if f.endswith('.py') and os.path.isfile(os.path.join("deinen pfad einfgen zu autostart", f))]
         self.ai = ai  
         self.tools = tools 
         self.inputs = inputs
@@ -95,7 +95,7 @@ class Autostat:
         if len(self.autostarts) != 0:
             for i in range(len(self.autostarts)):
                 time.sleep(0.1)
-                out2 = open("/home/nico/Dokumente/sara/autostart/" + "".join(self.autostarts[i]),"r")
+                out2 = open("deinen pfad einfgen zu autostart" + "".join(self.autostarts[i]),"r")
                 out = out2.read()
                 t = threading.Thread(target=self.start_autostart,args=(out,), daemon=True)
                 t.start()
