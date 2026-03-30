@@ -1,3 +1,6 @@
+#sara.py
+#Copyright (C) 2026 nic-use-python
+#dises program steht unter der glpv3 lizens
 print("\033[92m")
 print("starte sara")
 import pyttsx3
