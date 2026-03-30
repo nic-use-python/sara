@@ -1,2 +1,4 @@
-UserName=Nico
+hier user name eingeben
+UserName=
+hier modell eingeben
 Modlle=llama3.2:latest
