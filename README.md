@@ -35,3 +35,21 @@ curl -fsSL https://ollama.com/install.sh | sh```
    bei fehlern wegen fehlenden modulen dise nachinstaliren (unvarscheinlich da python es normalerweise automatisch hatt)
 9. dann sara3.0.py starten:
    -pfad zu deninem venv überordner.venv/bin/python pfad zu sara3.0.py
+Tipps zum entwikeln:
+- dateine aufbau und funktion:
+├── sara3.0.py       # Der Kern
+├── settings.txt     # Einstellungen
+├── plugins/         # Deine Autostart-Skripte
+└── tools/           # Skripte für manuelle Befehle
+- was die plugins bekommen:
+    -brain classe als ai
+    -inputs classe als inputs
+    -tools classe als tools
+beichspiele:
+- du wist memory lesen also nur .
+```python
+ memory = tools.memory # gibt liste zurück
+```
+- du wilst tts nutzen um "hallo" zu sagen also nur
+```python
+ai.say("hallo")
