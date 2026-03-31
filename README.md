@@ -12,7 +12,8 @@ Instalation:
 1. ollama instaliren:
     debian: ```bash
 curl -fsSL https://ollama.com/install.sh | sh```
-    arch: 'sudo pacman -S ollama'
+    arch: ```bash
+   sudo pacman -S ollama```
 3. modell herunterladen:
    ```bash
    ollama pull llama3.2```
