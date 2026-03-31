@@ -13,9 +13,9 @@
 ### Manuell:
 1. ollama instaliren:
     debian:
-```bash
-rl -fsSL https://ollama.com/install.sh | sh
-```
+    ```bash
+    curl -fsSL https://ollama.com/install.sh | sh
+    ```
     arch:
    ```bash
    sudo pacman -S ollama
