@@ -69,7 +69,7 @@ ai.say("hallo")
 ## Wichtiges:
 **Sara ist noch eie beta . sie hat fehler und ist in entwiklung.**
 **ich entwikle momentan eine beta 2.0 dise wede ich hir öfentlich machen sobald sie fertig ist**
-# Neue funktonen die es dann in beta 2.0 gibt:
+### Neue funktonen die es dann in beta 2.0 gibt:
 1. besserer system promt mit systemauslastung usw intigrirt
 2. autostart wird mit regestry ferbessert
 3. popups mit notify
