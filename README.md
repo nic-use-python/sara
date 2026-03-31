@@ -9,6 +9,7 @@
 - komplet offline
 - einfach erweiterbar
 ## Instalation:
+# Manuell:
 1. ollama instaliren:
     debian: ```bash
 rl -fsSL https://ollama.com/install.sh | sh```
@@ -33,6 +34,16 @@ rl -fsSL https://ollama.com/install.sh | sh```
    pip install rapidfutzz
    ```
    bei fehlern wegen fehlenden modulen dise nachinstaliren (unvarscheinlich da python es normalerweise automatisch hatt)
+# Automatisch:
+```batch
+chmod +x passendes skript
+```
+ nutze das passende .bash skript für dich !!!
+ dann:
+ ```batch
+sudo ./passendes skript.bash
+```
+nutze das was du im letzten befehlgenutzt hast dund passend für dein system ist!
 9. dann sara3.0.py starten:
    -pfad zu deninem venv überordner.venv/bin/python pfad zu sara3.0.py
 ## Tipps zum entwikeln:
