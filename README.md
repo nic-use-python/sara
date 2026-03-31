@@ -12,24 +12,24 @@
 ## Instalation:
 ### Manuell:
 1. ollama instaliren:
-    1. debian:
+- debian:
     ```bash
     curl -fsSL https://ollama.com/install.sh | sh
     ```
-    arch:
+- arch:
    ```bash
    sudo pacman -S ollama
    ```
-3. modell herunterladen:
+2. modell herunterladen:
    ```bash
    ollama pull llama3.2`
    ```
-4. wenn noch nicht instalirt python instaliren(bei linux oft vorinstalirt)
-5. venv erstellen:
+3. wenn noch nicht instalirt python instaliren(bei linux oft vorinstalirt)
+4. venv erstellen:
    ```bash
    python3 -m venv .venv
    ```
-   dann aktiviren:
+6. dann aktiviren:
    ```bash
    'source .venv/bin/activate
    ```
