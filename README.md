@@ -12,7 +12,7 @@
 ## Instalation:
 ### Manuell:
 1. ollama instaliren:
-    debian:
+    1. debian:
     ```bash
     curl -fsSL https://ollama.com/install.sh | sh
     ```
