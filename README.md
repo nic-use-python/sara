@@ -9,7 +9,7 @@
 - komplet offline
 - einfach erweiterbar
 ## Instalation:
-# Manuell:
+### Manuell:
 1. ollama instaliren:
     debian: ```bash
 rl -fsSL https://ollama.com/install.sh | sh```
@@ -34,7 +34,7 @@ rl -fsSL https://ollama.com/install.sh | sh```
    pip install rapidfutzz
    ```
    bei fehlern wegen fehlenden modulen dise nachinstaliren (unvarscheinlich da python es normalerweise automatisch hatt)
-# Automatisch:
+### Automatisch:
 ```batch
 chmod +x passendes skript
 ```
