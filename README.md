@@ -1,1 +1,1 @@
-1. bitte vosk model in ordner copieren damit es funktionirt
+bitte redme.md in dem hauptordner lesen
