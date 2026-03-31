@@ -1,4 +1,5 @@
-## Beschreibung: Sara ist ein python skript das für einfache automatisirung , als ki assitent / desktopassistent erstellt wurde.
+## Beschreibung: 
+**Sara** ist ein python skript das für einfache automatisirung , als ki assitent / desktopassistent erstellt wurde.
 ## Funktionen:
 - Autostart von skripten beim start von sara direckt mit zugrif auf die hauptfunktionen des skriptes wie : tts , ollama anfragen usw
 - tools einfach skript ineinen ordner und sara kann sie per befehl ausfüren
@@ -38,12 +39,12 @@ rl -fsSL https://ollama.com/install.sh | sh```
 ```batch
 chmod +x passendes skript
 ```
- nutze das passende .bash skript für dich !!!
+ **nutze das passende .bash skript für dein system !!!**
  dann:
  ```batch
 sudo ./passendes skript.bash
 ```
-nutze das was du im letzten befehlgenutzt hast dund passend für dein system ist!
+**nutze das was du im letzten befehlgenutzt hast dund passend für dein system ist!**
 9. dann sara3.0.py starten:
    -pfad zu deninem venv überordner.venv/bin/python pfad zu sara3.0.py
 ## Tipps zum entwikeln:
@@ -64,3 +65,16 @@ beichspiele:
 - du wilst tts nutzen um "hallo" zu sagen also nur
 ```python
 ai.say("hallo")
+```
+## Wichtiges:
+**Sara ist noch eie beta . sie hat fehler und ist in entwiklung.**
+**ich entwikle momentan eine beta 2.0 dise wede ich hir öfentlich machen sobald sie fertig ist**
+# Neue funktonen die es dann in beta 2.0 gibt:
+1. besserer system promt mit systemauslastung usw intigrirt
+2. autostart wird mit regestry ferbessert
+3. popups mit notify
+4. plugins/ autostarts könen sich für events regestriren und weden dan ausgefürt
+5. selfhealing bei fehlenden modulen
+6. mehr plugins
+7. email nutzbar
+**bitte beachten das dise beta 2.0 forerst nicht hier ist und noch privat getestet / entwikelt wird**
