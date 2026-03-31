@@ -12,21 +12,27 @@
 ## Instalation:
 ### Manuell:
 1. ollama instaliren:
-    debian: ```bash
-rl -fsSL https://ollama.com/install.sh | sh```
-    arch: ```bash
-   sudo pacman -S ollama```
+    debian:
+```bash
+rl -fsSL https://ollama.com/install.sh | sh
+```
+    arch:
+   ```bash
+   sudo pacman -S ollama
+   ```
 3. modell herunterladen:
    ```bash
-   ollama pull llama3.2```
+   ollama pull llama3.2`
+   ```
 4. wenn noch nicht instalirt python instaliren(bei linux oft vorinstalirt)
 5. venv erstellen:
    ```bash
    python3 -m venv .venv
    ```
    dann aktiviren:
-   ```bsah
-   'source .venv/bin/activate```
+   ```bash
+   'source .venv/bin/activate
+   ```
 7. im aktivirten venv mit pip nötige liberys/module instaliren:
    ```bash
    pip install ollama
