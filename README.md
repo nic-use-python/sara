@@ -75,6 +75,12 @@ ai.say("hallo")
 ## Wichtiges:
 **Sara ist noch eie beta . sie hat fehler und ist in entwiklung.**
 **ich entwikle momentan eine beta 2.0 dise wede ich hir öfentlich machen sobald sie fertig ist**
+## warum ich dise software in meinem projeckt nutze:
+- Ollama weil ich damit gute erfarungen habe und es extrem gut mit python funktionirt
+- rapidfuzz weil es schneller ist als das oginale thefuzz
+- espeak-ng weil pyttsx3 in classen zu fehlern fürt
+- llama3.2 weil llama gut auf komplexe systempromts regirt besser als modelle wie phi
+- exec weil ich eine einfache trotzdem efiziente lösung für code rinzuladen und da ich hoffe das **jeder plgins selbst erstellt oder von einer fertrauenswürdigen quelle hatt**
 ### Neue funktonen die es dann in beta 2.0 gibt:
 - [x] besserer system promt mit systemauslastung usw intigrirt 
 - [ ] autostart wird mit einer regestry ferbessert 
