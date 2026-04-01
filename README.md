@@ -83,4 +83,4 @@ ai.say("hallo")
 - [x] selfhealing bei fehlenden modulen 
 - [x] mehr plugins 
 - [x] email nutzbar 
-**bitte beachten das dise beta 2.0 forerst nicht hier ist und noch privat getestet / entwikelt wird bis alle funktionen fertig sind und getestet sind**
+- **bitte beachten das dise beta 2.0 forerst nicht hier ist und noch privat getestet / entwikelt wird bis alle funktionen fertig sind und getestet sind**
