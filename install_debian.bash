@@ -25,6 +25,6 @@ echo "erstelle neues venv"
 python3 -m venv .venv
 source .venv/bin/activate
 echo "starte installationen mit pip von ollama-python libery , rapidfutzz"
-./.venv/bin/pip ollama rapidfuzz
+./.venv/bin/pip install ollama rapidfuzz
 apt moo
 read -p "programm abgeschlossen. Drücke Enter zum Schließen..." 
