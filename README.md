@@ -76,11 +76,11 @@ ai.say("hallo")
 **Sara ist noch eie beta . sie hat fehler und ist in entwiklung.**
 **ich entwikle momentan eine beta 2.0 dise wede ich hir öfentlich machen sobald sie fertig ist**
 ### Neue funktonen die es dann in beta 2.0 gibt:
-1. besserer system promt mit systemauslastung usw intigrirt
-2. autostart wird mit regestry ferbessert
-3. popups mit notify
-4. plugins/ autostarts könen sich für events regestriren und weden dan ausgefürt
-5. selfhealing bei fehlenden modulen
-6. mehr plugins
-7. email nutzbar
-**bitte beachten das dise beta 2.0 forerst nicht hier ist und noch privat getestet / entwikelt wird**
+- [x] besserer system promt mit systemauslastung usw intigrirt 
+- [ ] autostart wird mit einer regestry ferbessert 
+- [x] popups mit notify 
+- [ ] plugins/ autostarts könen sich für events regestriren und weden dan ausgefürt 
+- [x] selfhealing bei fehlenden modulen 
+- [x] mehr plugins 
+- [x] email nutzbar 
+**bitte beachten das dise beta 2.0 forerst nicht hier ist und noch privat getestet / entwikelt wird bis alle funktionen fertig sind und getestet sind**
