@@ -1,6 +1,5 @@
 ## Beschreibung: 
 
-https://github.com/user-attachments/assets/bdae3441-4521-4e5e-bfd8-ac2fae8c3951
 
 
 **Sara** ist ein python skript das für einfache automatisirung , als ki assitent / desktopassistent erstellt wurde.
