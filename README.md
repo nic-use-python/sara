@@ -93,4 +93,4 @@ ai.say("hallo")
 - [x] mehr plugins 
 - [x] email nutzbar
 - **bitte beachten das dise beta 2.0 forerst nicht hier ist und noch privat getestet / entwikelt wird bis alle funktionen fertig sind und getestet sind**
-- 2.0 wird feröfentlicht wen ich mal 5 besuch auf disem reposotory sehe
+- 2.0 wird feröfentlicht wen ich mal 100 besuch auf disem reposotory sehe
